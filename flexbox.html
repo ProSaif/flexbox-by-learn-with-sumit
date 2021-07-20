@@ -15,312 +15,417 @@
 
 
 <body>
+  <!-- ----------------container start----------- -->
   <div>
+
     <h1>Display: Flex</h1>
+
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container</h2><br>
+
     <code>.container {
       display: flex;
       }</code>
+
     <p style="font-size: 25px; font-weight: bold; background-color: yellow;">By defaul div is a block element, that
       means they will start with a new line but by css command "display: flex" all div come around beside like inline
       element</p>
+
     <div class="container">
+
       <div class="item one a">
         <p>One</p>
       </div>
+
       <div class="item two b">
         <p>Two</p>
       </div>
+
       <div class="item three c">
         <p>Three</p>
       </div>
+
       <div class="item four d">
         <p>Four</p>
       </div>
+
       <div class="item five e">
         <p>Five</p>
       </div>
+
       <div class="item six f">
         <p>Six</p>
       </div>
-    </div>
-    <div>
 
-      <h1>flex-direction: row-reverse</h1>
-      <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 2</h2><br>
-      <code>.container2 {
-        display: flex;
-        flex-direction: row-reverse;
-        }</code>
-      <div class="container2">
-        <div class="item one a">
-          <p>One</p>
-        </div>
-        <div class="item two b">
-          <p>Two</p>
-        </div>
-        <div class="item three c">
-          <p>Three</p>
-        </div>
-        <div class="item four d">
-          <p>Four</p>
-        </div>
-        <div class="item five e">
-          <p>Five</p>
-        </div>
-        <div class="item six f">
-          <p>Six</p>
-        </div>
+    </div>
+    <!-- ---------------------container end --------------->
+
+    <!-- -------------------container-2 start----------------------- -->
+
+    <h1>flex-direction: row-reverse</h1>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 2</h2><br>
+
+    <code>.container2 {
+      display: flex;
+      flex-direction: row-reverse;
+      }</code>
+
+    <div class="container2">
+
+      <div class="item one a">
+        <p>One</p>
       </div>
-    </div>
-    <div>
 
-      <h1>flex-direction: colum</h1>
-      <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 3</h2><br>
-      <code>.container3 {
-        display: flex;
-        flex-direction: column;
-        }</code>
-      <div class="container3">
-        <div class="item one a">
-          <p>One</p>
-        </div>
-        <div class="item two b">
-          <p>Two</p>
-        </div>
-        <div class="item three c">
-          <p>Three</p>
-        </div>
-        <div class="item four d">
-          <p>Four</p>
-        </div>
-        <div class="item five e">
-          <p>Five</p>
-        </div>
-        <div class="item six f">
-          <p>Six</p>
-        </div>
+      <div class="item two b">
+        <p>Two</p>
       </div>
-    </div>
-    <div>
 
-      <h1>flex-direction: colum-reverse</h1>
-      <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 4</h2><br>
-      <code>.container4 {
-        display: flex;
-        flex-direction: column-reverse;
-        }</code>
-      <div class="container4">
-        <div class="item one a">
-          <p>One</p>
-        </div>
-        <div class="item two b">
-          <p>Two</p>
-        </div>
-        <div class="item three c">
-          <p>Three</p>
-        </div>
-        <div class="item four d">
-          <p>Four</p>
-        </div>
-        <div class="item five e">
-          <p>Five</p>
-        </div>
-        <div class="item six f">
-          <p>Six</p>
-        </div>
+      <div class="item three c">
+        <p>Three</p>
       </div>
-    </div>
 
-    <div>
-      <h1>flex-wrap: nowrap (by default)</h1>
-      <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 5</h2><br>
-      <code>.container5 {
-        display: flex;
-        }</code>
-      <div class="container5">
-        <div class="item one a">
-          <p>One</p>
-        </div>
-        <div class="item two b">
-          <p>Two</p>
-        </div>
-        <div class="item three c">
-          <p>Three</p>
-        </div>
-        <div class="item four d">
-          <p>Four</p>
-        </div>
-        <div class="item five e">
-          <p>Five</p>
-        </div>
-        <div class="item six f">
-          <p>Six</p>
-        </div>
-        <div class="item seven g">
-          <p>Seven</p>
-        </div>
-        <div class="item eight h">
-          <p>Eight</p>
-        </div>
-        <div class="item nine i">
-          <p>Nine</p>
-        </div>
-        <div class="item ten j">
-          <p>Ten</p>
-        </div>
-        <div class="item eleven k">
-          <p>Eleven</p>
-        </div>
-        <div class="item twelve l">
-          <p>Twelve</p>
-        </div>
+      <div class="item four d">
+        <p>Four</p>
       </div>
-    </div>
 
-    <div>
-      <h1>flex-wrap: wrap</h1>
-      <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 6</h2><br>
-      <code>.container6 {
-        display: flex;
-        flex-wrap: wrap;
-        }</code>
-      <div class="container6">
-        <div class="item one a">
-          <p>One</p>
-        </div>
-        <div class="item two b">
-          <p>Two</p>
-        </div>
-        <div class="item three c">
-          <p>Three</p>
-        </div>
-        <div class="item four d">
-          <p>Four</p>
-        </div>
-        <div class="item five e">
-          <p>Five</p>
-        </div>
-        <div class="item six f">
-          <p>Six</p>
-        </div>
-        <div class="item seven g">
-          <p>Seven</p>
-        </div>
-        <div class="item eight h">
-          <p>Eight</p>
-        </div>
-        <div class="item nine i">
-          <p>Nine</p>
-        </div>
-        <div class="item ten j">
-          <p>Ten</p>
-        </div>
-        <div class="item eleven k">
-          <p>Eleven</p>
-        </div>
-        <div class="item twelve l">
-          <p>Twelve</p>
-        </div>
+      <div class="item five e">
+        <p>Five</p>
       </div>
-    </div>
 
-    <div>
-      <h1>flex-wrap: wrap-reverse</h1>
-      <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 7</h2><br>
-      <code>.container7 {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        }</code>
-      <div class="container7">
-        <div class="item one a">
-          <p>One</p>
-        </div>
-        <div class="item two b">
-          <p>Two</p>
-        </div>
-        <div class="item three c">
-          <p>Three</p>
-        </div>
-        <div class="item four d">
-          <p>Four</p>
-        </div>
-        <div class="item five e">
-          <p>Five</p>
-        </div>
-        <div class="item six f">
-          <p>Six</p>
-        </div>
-        <div class="item seven g">
-          <p>Seven</p>
-        </div>
-        <div class="item eight h">
-          <p>Eight</p>
-        </div>
-        <div class="item nine i">
-          <p>Nine</p>
-        </div>
-        <div class="item ten j">
-          <p>Ten</p>
-        </div>
-        <div class="item eleven k">
-          <p>Eleven</p>
-        </div>
-        <div class="item twelve l">
-          <p>Twelve</p>
-        </div>
+      <div class="item six f">
+        <p>Six</p>
       </div>
-    </div>
 
-    <div>
-      <h1>flex-direction: colum</h1>
-      <h1>flex-wrap: nowrap (by default)</h1>
-      <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 8</h2><br>
-      <code>.container8 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        }</code>
-      <div class="container8">
-        <div class="item one a">
-          <p>One</p>
-        </div>
-        <div class="item two b">
-          <p>Two</p>
-        </div>
-        <div class="item three c">
-          <p>Three</p>
-        </div>
-        <div class="item four d">
-          <p>Four</p>
-        </div>
-        <div class="item five e">
-          <p>Five</p>
-        </div>
-        <div class="item six f">
-          <p>Six</p>
-        </div>
-        <div class="item seven g">
-          <p>Seven</p>
-        </div>
-        <div class="item eight h">
-          <p>Eight</p>
-        </div>
-        <div class="item nine i">
-          <p>Nine</p>
-        </div>
-        <div class="item ten j">
-          <p>Ten</p>
-        </div>
-        <div class="item eleven k">
-          <p>Eleven</p>
-        </div>
-        <div class="item twelve l">
-          <p>Twelve</p>
-        </div>
+    </div>
+    <!-- -------------------container-2 end----------------------- -->
+    <!-- -------------------container-3 start----------------------- -->
+
+
+    <h1>flex-direction: colum</h1>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 3</h2><br>
+
+    <code>.container3 {
+      display: flex;
+      flex-direction: column;
+      }</code>
+
+    <div class="container3">
+      <div class="item one a">
+        <p>One</p>
       </div>
-    </div>
 
+      <div class="item two b">
+        <p>Two</p>
+      </div>
+
+      <div class="item three c">
+        <p>Three</p>
+      </div>
+
+      <div class="item four d">
+        <p>Four</p>
+      </div>
+
+      <div class="item five e">
+        <p>Five</p>
+      </div>
+
+      <div class="item six f">
+        <p>Six</p>
+      </div>
+
+    </div>
+    <!-- -------------------container-3 end----------------------- -->
+    <!---------------container-4 start------------------->
+
+    <h1>flex-direction: colum-reverse</h1>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 4</h2><br>
+
+    <code>.container4 {
+      display: flex;
+      flex-direction: column-reverse;
+      }</code>
+
+    <div class="container4">
+      <div class="item one a">
+        <p>One</p>
+      </div>
+
+      <div class="item two b">
+        <p>Two</p>
+      </div>
+
+      <div class="item three c">
+        <p>Three</p>
+      </div>
+
+      <div class="item four d">
+        <p>Four</p>
+      </div>
+
+      <div class="item five e">
+        <p>Five</p>
+      </div>
+
+      <div class="item six f">
+        <p>Six</p>
+      </div>
+
+    </div>
+    <!---------------container-4 end------------------->
+    <!---------------container-5 start------------------->
+
+    <h1>flex-wrap: nowrap (by default)</h1>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 5</h2><br>
+
+    <code>.container5 {
+      display: flex;
+      }</code>
+
+    <div class="container5">
+
+      <div class="item one a">
+        <p>One</p>
+      </div>
+
+      <div class="item two b">
+        <p>Two</p>
+      </div>
+
+      <div class="item three c">
+        <p>Three</p>
+      </div>
+
+      <div class="item four d">
+        <p>Four</p>
+      </div>
+
+      <div class="item five e">
+        <p>Five</p>
+      </div>
+
+      <div class="item six f">
+        <p>Six</p>
+      </div>
+
+      <div class="item seven g">
+        <p>Seven</p>
+      </div>
+
+      <div class="item eight h">
+        <p>Eight</p>
+      </div>
+
+      <div class="item nine i">
+        <p>Nine</p>
+      </div>
+
+      <div class="item ten j">
+        <p>Ten</p>
+      </div>
+
+      <div class="item eleven k">
+        <p>Eleven</p>
+      </div>
+
+      <div class="item twelve l">
+        <p>Twelve</p>
+      </div>
+
+    </div>
+    <!---------------container-5 end------------------->
+    <!---------------container-6 start------------------->
+
+    <h1>flex-wrap: wrap</h1>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 6</h2><br>
+
+    <code>.container6 {
+      display: flex;
+      flex-wrap: wrap;
+      }</code>
+
+    <div class="container6">
+      <div class="item one a">
+        <p>One</p>
+      </div>
+
+      <div class="item two b">
+        <p>Two</p>
+      </div>
+
+      <div class="item three c">
+        <p>Three</p>
+      </div>
+
+      <div class="item four d">
+        <p>Four</p>
+      </div>
+
+      <div class="item five e">
+        <p>Five</p>
+      </div>
+
+      <div class="item six f">
+        <p>Six</p>
+      </div>
+
+      <div class="item seven g">
+        <p>Seven</p>
+      </div>
+
+      <div class="item eight h">
+        <p>Eight</p>
+      </div>
+
+      <div class="item nine i">
+        <p>Nine</p>
+      </div>
+
+      <div class="item ten j">
+        <p>Ten</p>
+      </div>
+
+      <div class="item eleven k">
+        <p>Eleven</p>
+      </div>
+
+      <div class="item twelve l">
+        <p>Twelve</p>
+      </div>
+
+    </div>
+    <!---------------container-6 end------------------->
+    <!---------------container-7 start------------------->
+
+    <h1>flex-wrap: wrap-reverse</h1>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 7</h2><br>
+
+    <code>.container7 {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      }</code>
+
+    <div class="container7">
+      <div class="item one a">
+        <p>One</p>
+      </div>
+
+      <div class="item two b">
+        <p>Two</p>
+      </div>
+
+      <div class="item three c">
+        <p>Three</p>
+      </div>
+
+      <div class="item four d">
+        <p>Four</p>
+      </div>
+
+      <div class="item five e">
+        <p>Five</p>
+      </div>
+
+      <div class="item six f">
+        <p>Six</p>
+      </div>
+
+      <div class="item seven g">
+        <p>Seven</p>
+      </div>
+
+      <div class="item eight h">
+        <p>Eight</p>
+      </div>
+
+      <div class="item nine i">
+        <p>Nine</p>
+      </div>
+
+      <div class="item ten j">
+        <p>Ten</p>
+      </div>
+
+      <div class="item eleven k">
+        <p>Eleven</p>
+      </div>
+
+      <div class="item twelve l">
+        <p>Twelve</p>
+      </div>
+
+    </div>
+    <!---------------container-7 end------------------->
+    <!---------------container-8 start------------------->
+
+    <h1>flex-direction: colum</h1>
+
+    <h1>flex-wrap: nowrap (by default)</h1>
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 8</h2><br>
+
+    <code>.container8 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      }</code>
+
+    <div class="container8">
+      <div class="item one a">
+        <p>One</p>
+      </div>
+
+      <div class="item two b">
+        <p>Two</p>
+      </div>
+
+      <div class="item three c">
+        <p>Three</p>
+      </div>
+
+      <div class="item four d">
+        <p>Four</p>
+      </div>
+
+      <div class="item five e">
+        <p>Five</p>
+      </div>
+
+      <div class="item six f">
+        <p>Six</p>
+      </div>
+
+      <div class="item seven g">
+        <p>Seven</p>
+      </div>
+
+      <div class="item eight h">
+        <p>Eight</p>
+      </div>
+
+      <div class="item nine i">
+        <p>Nine</p>
+      </div>
+
+      <div class="item ten j">
+        <p>Ten</p>
+      </div>
+
+      <div class="item eleven k">
+        <p>Eleven</p>
+      </div>
+
+      <div class="item twelve l">
+        <p>Twelve</p>
+      </div>
+
+    </div>
+    <!---------------container-8 end------------------->
+    <!---------------container-9 start------------------->
     <div>
       <h1>flex-direction: colum</h1>
       <h1>flex-wrap: wrap-reverse</h1>
@@ -369,13 +474,13 @@
         </div>
       </div>
     </div>
-  </div>
+    <!---------------container-9 end------------------->
 
-  <div style="margin: 50px;">
-    <h1 style="border: 3px solid blue; text-align: center">Flex Container Properties</h1>
-
-    <div style="display: flex;">
-      <div style="border: 2px dotted green;">
+    <div style="margin: 50px;">
+      <h1 style="border: 3px solid blue; text-align: center">Flex Container Properties</h1>
+    </div>
+    <div style="display: flex; justify-content: center; margin-bottom: 60px;">
+      <div style="border: 2px dotted green; padding: 65px; margin-right: 30px;">
         <h2><u>flex-direction</u></h2>
         <ol>
           <li>
@@ -393,7 +498,7 @@
         </ol>
       </div>
 
-      <div style="border: 2px dotted green;">
+      <div style="border: 2px dotted green; padding: 65px; margin-left: 30px;">
         <h2><u>flex-wrap</u></h2>
         <ol>
           <li>
@@ -408,7 +513,10 @@
         </ol>
       </div>
     </div>
+
   </div>
+
+
   <h1><u>flex-direction + flex-wrap = flex-flow</u></h1>
   <p><b>css flex code ca be written by this way:</b>
   </p>
@@ -422,7 +530,11 @@
     <h1 style="text-align: center;">Main axis alignment (raw wise alignment)</h1>
     <h2 style="text-align: center; border: 3px solid red;">It is called <b><i><u>"justify-content"</u></i></b> to
       allocate the element when it follow to the row </h2>
+
+    <!---------------container-10 start------------------->
+
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 10</h2><br>
+
     <code>.container10 {
       display: flex;
       flex-flow: wrap;
@@ -467,8 +579,11 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-10 end------------------->
+    <!---------------container-11 start------------------->
 
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 11</h2><br>
+
     <code>.container11 {
       display: flex;
       flex-flow: wrap;
@@ -513,8 +628,11 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-11 end------------------->
+    <!---------------container-12 start------------------->
 
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 12</h2><br>
+
     <code>.container12 {
       display: flex;
       flex-flow: wrap;
@@ -560,8 +678,11 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-12 end------------------->
+    <!---------------container-13 start------------------->
 
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 13</h2><br>
+
     <code>.container13 {
       display: flex;
       flex-flow: wrap;
@@ -606,8 +727,11 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-13 end------------------->
+    <!---------------container-14 start------------------->
 
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 14</h2><br>
+
     <code>.container14 {
       display: flex;
       flex-flow: row-reverse wrap;
@@ -653,6 +777,7 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-14 end------------------->
 
     <p style="color: red; background-color: yellow; font-size: 30px; font-weight: 900;">
       <i><u>Same as for column, column-reverse, row-reverse</u></i>
@@ -683,12 +808,16 @@
     <h2 style="text-align: center; border: 3px solid red; margin-bottom: 10px;">It is called
       <b><i><u>"align-items"</u></i></b> to allocate
       the element when it follow to the column </h2>
+
+    <!---------------container-15 start------------------->
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 15</h2><br>
+
     <code>.container15 {
       display: flex;
       flex-flow: wrap;
       align-items: stretch;
       }</code>
+
     <div class="container15">
       <div class="item one a" id="a">
         <p>One</p>
@@ -727,12 +856,17 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-15 end------------------->
+    <!---------------container-16 start------------------->
+
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 16</h2><br>
+
     <code>.container16 {
       display: flex;
       flex-flow: wrap;
       align-items: flex-start;
       }</code>
+
     <div class="container16">
       <div class="item one a" id="a">
         <p>One</p>
@@ -771,12 +905,17 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-16 end------------------->
+    <!---------------container-17 start------------------->
+
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 17</h2><br>
+
     <code>.container17 {
       display: flex;
       flex-flow: wrap;
       align-items: flex-end;
       }</code>
+
     <div class="container17">
       <div class="item one a" id="a">
         <p>One</p>
@@ -815,7 +954,11 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-17 end------------------->
+    <!---------------container-18 start------------------->
+
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 18</h2><br>
+
     <code>
       .container18 {
       display: flex;
@@ -823,6 +966,7 @@
       align-items: center;
       }
     </code>
+
     <div class="container18">
       <div class="item one a" id="a">
         <p>One</p>
@@ -861,13 +1005,19 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-18 end------------------->
+    <!---------------container-19 start------------------->
+
     <h1>Flex Direction Row</h1>
+
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 19</h2><br>
+
     <code>.container19 {
       display: flex;
       flex-flow: column wrap;
       align-items: stretch;
       }</code>
+
     <h3 style="color: yellow; background-color: red; text-align: center;font-size: 25px;">Not working</h3>
     <div class="container19">
       <div class="item one a" id="a">
@@ -907,14 +1057,355 @@
         <p>Twelve</p>
       </div>
     </div>
+    <!---------------container-19 end------------------->
+    <!---------------container-20 start------------------->
 
     <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 20</h2><br>
+
     <code>.container20 {
       display: flex;
       flex-flow: column wrap;
       align-items: flex-start;
       }</code>
+
     <div class="container20">
+      <div class="item one a" id="a">
+        <p>One</p>
+      </div>
+      <div class="item two b" id="b">
+        <p>Two</p>
+      </div>
+      <div class="item three c" id="c">
+        <p>Three</p>
+      </div>
+      <div class="item four d" id="d">
+        <p>Four</p>
+      </div>
+      <div class="item five e" id="e">
+        <p>Five</p>
+      </div>
+      <div class="item six f" id="f">
+        <p>Six</p>
+      </div>
+      <div class="item seven g" id="g">
+        <p>Seven</p>
+      </div>
+      <div class="item eight h" id="h">
+        <p>Eight</p>
+      </div>
+      <div class="item nine i" id="i">
+        <p>Nine</p>
+      </div>
+      <div class="item ten j" id="j">
+        <p>Ten</p>
+      </div>
+      <div class="item eleven k" id="k">
+        <p>Eleven</p>
+      </div>
+      <div class="item twelve l" id="l">
+        <p>Twelve</p>
+      </div>
+    </div>
+    <!---------------container-20 end------------------->
+    <!---------------container-21 start------------------->
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 21</h2><br>
+
+    <code>.container21 {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-end;
+      }</code>
+
+    <div class="container21">
+      <div class="item one a" id="a">
+        <p>One</p>
+      </div>
+      <div class="item two b" id="b">
+        <p>Two</p>
+      </div>
+      <div class="item three c" id="c">
+        <p>Three</p>
+      </div>
+      <div class="item four d" id="d">
+        <p>Four</p>
+      </div>
+      <div class="item five e" id="e">
+        <p>Five</p>
+      </div>
+      <div class="item six f" id="f">
+        <p>Six</p>
+      </div>
+      <div class="item seven g" id="g">
+        <p>Seven</p>
+      </div>
+      <div class="item eight h" id="h">
+        <p>Eight</p>
+      </div>
+      <div class="item nine i" id="i">
+        <p>Nine</p>
+      </div>
+      <div class="item ten j" id="j">
+        <p>Ten</p>
+      </div>
+      <div class="item eleven k" id="k">
+        <p>Eleven</p>
+      </div>
+      <div class="item twelve l" id="l">
+        <p>Twelve</p>
+      </div>
+    </div>
+    <!---------------container-21 end------------------->
+    <!---------------container-22 start------------------->
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 22</h2><br>
+
+    <code>.container22 {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      }</code>
+
+    <div class="container22">
+      <div class="item one a" id="a">
+        <p>One</p>
+      </div>
+      <div class="item two b" id="b">
+        <p>Two</p>
+      </div>
+      <div class="item three c" id="c">
+        <p>Three</p>
+      </div>
+      <div class="item four d" id="d">
+        <p>Four</p>
+      </div>
+      <div class="item five e" id="e">
+        <p>Five</p>
+      </div>
+      <div class="item six f" id="f">
+        <p>Six</p>
+      </div>
+      <div class="item seven g" id="g">
+        <p>Seven</p>
+      </div>
+      <div class="item eight h" id="h">
+        <p>Eight</p>
+      </div>
+      <div class="item nine i" id="i">
+        <p>Nine</p>
+      </div>
+      <div class="item ten j" id="j">
+        <p>Ten</p>
+      </div>
+      <div class="item eleven k" id="k">
+        <p>Eleven</p>
+      </div>
+      <div class="item twelve l" id="l">
+        <p>Twelve</p>
+      </div>
+    </div>
+    <!---------------container-22 end------------------->
+
+    <h1 style="text-align: center;"><u>Align Content</u></h1>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 23</h2><br>
+
+    <code>.container23 {
+      display: flex;
+      flex-flow: row wrap;
+      align-content: flex-start;
+      }</code>
+
+    <div class="container23">
+      <div class="item one a" id="a">
+        <p>One</p>
+      </div>
+      <div class="item two b" id="b">
+        <p>Two</p>
+      </div>
+      <div class="item three c" id="c">
+        <p>Three</p>
+      </div>
+      <div class="item four d" id="d">
+        <p>Four</p>
+      </div>
+      <div class="item five e" id="e">
+        <p>Five</p>
+      </div>
+      <div class="item six f" id="f">
+        <p>Six</p>
+      </div>
+      <div class="item seven g" id="g">
+        <p>Seven</p>
+      </div>
+      <div class="item eight h" id="h">
+        <p>Eight</p>
+      </div>
+      <div class="item nine i" id="i">
+        <p>Nine</p>
+      </div>
+      <div class="item ten j" id="j">
+        <p>Ten</p>
+      </div>
+      <div class="item eleven k" id="k">
+        <p>Eleven</p>
+      </div>
+      <div class="item twelve l" id="l">
+        <p>Twelve</p>
+      </div>
+    </div>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 24</h2><br>
+
+    <code>.container24 {
+      display: flex;
+      flex-flow: row wrap;
+      align-content: flex-end;
+      }</code>
+
+    <div class="container24">
+      <div class="item one a" id="a">
+        <p>One</p>
+      </div>
+      <div class="item two b" id="b">
+        <p>Two</p>
+      </div>
+      <div class="item three c" id="c">
+        <p>Three</p>
+      </div>
+      <div class="item four d" id="d">
+        <p>Four</p>
+      </div>
+      <div class="item five e" id="e">
+        <p>Five</p>
+      </div>
+      <div class="item six f" id="f">
+        <p>Six</p>
+      </div>
+      <div class="item seven g" id="g">
+        <p>Seven</p>
+      </div>
+      <div class="item eight h" id="h">
+        <p>Eight</p>
+      </div>
+      <div class="item nine i" id="i">
+        <p>Nine</p>
+      </div>
+      <div class="item ten j" id="j">
+        <p>Ten</p>
+      </div>
+      <div class="item eleven k" id="k">
+        <p>Eleven</p>
+      </div>
+      <div class="item twelve l" id="l">
+        <p>Twelve</p>
+      </div>
+    </div>
+
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 25</h2><br>
+
+    <code>.container25 {
+      display: flex;
+      flex-flow: row wrap;
+      align-content: center;
+      }</code>
+
+    <div class="container25">
+      <div class="item one a" id="a">
+        <p>One</p>
+      </div>
+      <div class="item two b" id="b">
+        <p>Two</p>
+      </div>
+      <div class="item three c" id="c">
+        <p>Three</p>
+      </div>
+      <div class="item four d" id="d">
+        <p>Four</p>
+      </div>
+      <div class="item five e" id="e">
+        <p>Five</p>
+      </div>
+      <div class="item six f" id="f">
+        <p>Six</p>
+      </div>
+      <div class="item seven g" id="g">
+        <p>Seven</p>
+      </div>
+      <div class="item eight h" id="h">
+        <p>Eight</p>
+      </div>
+      <div class="item nine i" id="i">
+        <p>Nine</p>
+      </div>
+      <div class="item ten j" id="j">
+        <p>Ten</p>
+      </div>
+      <div class="item eleven k" id="k">
+        <p>Eleven</p>
+      </div>
+      <div class="item twelve l" id="l">
+        <p>Twelve</p>
+      </div>
+    </div>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 26</h2><br>
+
+    <code>.container26 {
+      display: flex;
+      flex-flow: row wrap;
+      align-content: space-between;
+      }</code>
+
+    <div class="container26">
+      <div class="item one a" id="a">
+        <p>One</p>
+      </div>
+      <div class="item two b" id="b">
+        <p>Two</p>
+      </div>
+      <div class="item three c" id="c">
+        <p>Three</p>
+      </div>
+      <div class="item four d" id="d">
+        <p>Four</p>
+      </div>
+      <div class="item five e" id="e">
+        <p>Five</p>
+      </div>
+      <div class="item six f" id="f">
+        <p>Six</p>
+      </div>
+      <div class="item seven g" id="g">
+        <p>Seven</p>
+      </div>
+      <div class="item eight h" id="h">
+        <p>Eight</p>
+      </div>
+      <div class="item nine i" id="i">
+        <p>Nine</p>
+      </div>
+      <div class="item ten j" id="j">
+        <p>Ten</p>
+      </div>
+      <div class="item eleven k" id="k">
+        <p>Eleven</p>
+      </div>
+      <div class="item twelve l" id="l">
+        <p>Twelve</p>
+      </div>
+    </div>
+
+    <h2 style="color: aliceblue; background-color: black; display: inline;">Container - 27</h2><br>
+
+    <code>.container27 {
+      display: flex;
+      flex-flow: row wrap;
+      align-content: space-around;
+      }</code>
+
+    <div class="container27">
       <div class="item one a" id="a">
         <p>One</p>
       </div>
